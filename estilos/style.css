@@ -34,21 +34,24 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #005f73;
+    color: #333;
 }
 
+img.lado {
+    float: right;
+}
 /* Artigos */
 article {
     margin-bottom: 20px;
     padding: 20px;
-    border-left: 5px solid #0a9396;
-    background-color: #e0fbfc;
+    border-left: 5px solid #2c26ce;
+    background-color: #c4a9ca83;
     border-radius: 4px;
 }
 
 article h2 {
     font-size: 1.5em;
-    color: #001219;
+    color: #0f039a;
     margin-bottom: 10px;
 }
 
