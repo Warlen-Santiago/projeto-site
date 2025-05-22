@@ -1,0 +1,58 @@
+/* estilos/style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral do body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #005f73;
+}
+
+/* Artigos */
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 5px solid #0a9396;
+    background-color: #e0fbfc;
+    border-radius: 4px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    color: #001219;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1em;
+    color: #333;
+}
